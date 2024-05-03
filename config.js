@@ -1,26 +1,12 @@
 export const config = {
-    // STG: {
-    //     host: 'https://gorest.co.in/public/v2',
-    //     token: '',
-    //     username: 'Tenali Ramakrishna',
-    //     gender: 'male',
-    //     status: 'active'
-    // },
-    // PROD: {
-    //     host: 'https://gorest.co.in/public/v2',
-    //     token: '',
-    //     username: 'Tenali Ramakrishna',
-    //     gender: 'male',
-    //     status: 'active'
-    // },
-    BOOKS_DEV: {
-        host: 'http://localhost:1234'
+    DEV: {
+        host: 'http://localhost:2345'
     },
-    BOOKS_STG: {
-        host: 'http://localhost:1235'
+    STG: {
+        host: 'http://localhost:6789'
     },
-    BOOKS_PRD: {
-        host: 'http://localhost:1236'
+    PRD: {
+        host: 'http://localhost:1111'
     }
 }
 
